@@ -1,20 +1,20 @@
-Oque é o cy.lugh-tool?
+Oque é o cy.lugh-tool
 -
-O cy.lugh-tool e um script cheio de outros scripts usados ​​por hackers, tais como sqlmap, DoS, rapidscan, brutalforce entre outros, um script atualizado periodicamente, atualizado para melhor uso do usuário, se voce quer um script que tenha TUDO! , de mais importante e um ambiente pre projetado, voce pensou!, aqui tem tudo para voce virar um hacker! (podendo conter versoes pagas, para um script feito para voce.)
+O cy.lugh-tool e um script cheio de outros scripts usados por hackers, tais como sqlmap, DoS, rapidscan, brutalforce entre outros, um script atualizado periodicamente, atualizado para melhor uso do usuario, se voce quer um script que tenha TUDO!, de mais importante e um ambiente pre projetado, voce achou!, aqui tem tudo para voce virar um hacker! (podendo conter versoes pagas, para um script feito para voce.)
 
 como instalar o termux no celular?
 -
-acesse esse link e instale a versão mais recente: https://f-droid.org/en/packages/com.termux/
+acesse esse link e instale a versao mais recente: https://f-droid.org/en/packages/com.termux/
 
-============================+=========================== ===
+==========================+==========================
 
-instalação (termux)
+instalaçao  (termux)
 -
-pacote instalar git
+pkg install git
 
-pacote instalar python
+pkg install python
 
-pacote instalar python3
+pkg install python3
 
 git clone https://github.com/CY-LUGH-TOOLS/CY-LUGH-TOOL.git
 
@@ -24,11 +24,11 @@ cd config
 
 python3 CY-LUGH.py
 
-============================+=========================== ===
+==========================+==========================
 
 quer falar comigo?
 -
-para contato direto, me chame via instagram,whatsapp ou discord 🙂
+para contato direto, me chame via instagram,whatsapp ou discord :)
 
 ig: https://instagram.com/slayerkkk_?igshid=YmMyMTA2M2Y=
 
