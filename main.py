@@ -1,4 +1,5 @@
-import os, pyautogui as pg
+import os
+import pyautogui as pg
 
 pg.write('cd config')
 pg.press('enter')
