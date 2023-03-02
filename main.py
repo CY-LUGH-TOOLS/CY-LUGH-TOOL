@@ -1,7 +1,5 @@
-import subprocess, sys
+import os
 
-path_dir="/CY-LUGH-TOOL/config/CY-LUGH.py"
+caminho = 'CY-LUGH-TOOL/config/CY-LUGH.py'
 
-open_dir = 'open' if sys.platform == 'darwin' else "xdg-open"
-
-subprocess.call((open_dir, path_dir))
+os.startfile(caminho)
