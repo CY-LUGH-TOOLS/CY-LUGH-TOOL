@@ -1,6 +1,6 @@
 import os
 os.system('cd config')
-os.system('clear')
+#os.system('clear')
 #nome
 print('''\033[0;30;34m
 ░█████╗░██╗░░░██╗  ██╗░░░░░██╗░░░██╗░██████╗░██╗░░██╗
