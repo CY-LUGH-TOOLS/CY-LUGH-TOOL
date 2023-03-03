@@ -23,3 +23,5 @@ a = input('Coloque o site (Ex: www.youtube.com): ')
 b = os.system(f'host {a}')
 
 print(b)
+
+input('Aperte enter para sair...')
