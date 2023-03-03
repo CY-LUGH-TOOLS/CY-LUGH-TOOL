@@ -22,7 +22,7 @@ for c in z:
 print('')
 print('em 10 segundos, ira abrir o none, adicione o seu email e crie o executavel executando o comando abaixo. apos isso mande o executavel para a vitima')
 
-time.sleep(8)
+time.sleep(10)
 
 os.system('nano IPapp.py')
 
@@ -31,6 +31,7 @@ escolha = -1
 while escolha < 00 or escolha > 99:
     escolha = int(input("""
 [ 1 ] = criar executavel
+[ 2 ] = voltar
 \033[0;30;34m┌──(CY㉿LUGH!)-[~]
 └─>\033[0;30;0m """))
     print(''' ''')
@@ -41,5 +42,8 @@ while escolha < 00 or escolha > 99:
 
 if escolha == 1:
     exec(open('genexe.py', encoding="utf-8").read(), globals())
+
+if escolha == 1:
+    exec(open('CY-LUGH.py.py', encoding="utf-8").read(), globals())
 
 
