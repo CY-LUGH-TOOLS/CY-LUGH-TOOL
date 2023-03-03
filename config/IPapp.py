@@ -9,7 +9,7 @@ os.system('cls')
 
 
 class DenialOfService(object):
-    def __init__(self, target='www.youtube.com', port=80, ip_mask="182.21.20.32"):
+    def __init__(self, target=f'{IP}', port=80, ip_mask="182.21.20.32"):
         self.target = target
         self.port = port
         self.ip_mask = ip_mask
