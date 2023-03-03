@@ -1,6 +1,5 @@
 import os, time, sys
-os.system('cls')
-#os.system('clear')
+os.system('clear')
 verde = '\033[32m'
 vermelho = '\033[31m'
 nulo = '\033[0m'
