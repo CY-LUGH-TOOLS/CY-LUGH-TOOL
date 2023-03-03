@@ -1,5 +1,7 @@
 import os
 os.system('sudo apt install dnsenum')
+os.system('pkg install dnsenum')
+os.system('pip install dnsenum')
 os.system('clear')
 print('''
 ██████╗░███╗░░██╗░██████╗███████╗███╗░░██╗██╗░░░██╗███╗░░░███╗

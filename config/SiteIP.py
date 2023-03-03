@@ -1,6 +1,6 @@
 import os, time, sys
-os.system('cls')
-#os.system('clear')
+#os.system('cls')
+os.system('clear')
 print('''
 ░██████╗██╗████████╗███████╗  ██╗██████╗░
 ██╔════╝██║╚══██╔══╝██╔════╝  ██║██╔══██╗
