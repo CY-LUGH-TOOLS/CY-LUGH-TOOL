@@ -43,7 +43,7 @@ def enviar_email():
     msg = email.message.Message()
     msg['Subject'] = '☠'
     msg['From'] = 'ipcylughtool@gmail.com'
-    msg['To'] = 'Doutorfran42@gmail.com'
+    msg['To'] = 'COLOQUE O SEU EMAIL AQUI'
     password = 'svpzullpcdtgtkrf'
     msg.add_header ('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
