@@ -1,5 +1,6 @@
 import os, time, sys
 os.system('clear')
+#os.system('cls')
 #nome
 z = '''\033[0;30;34m
 ░█████╗░██╗░░░██╗  ██╗░░░░░██╗░░░██╗░██████╗░██╗░░██╗
@@ -38,9 +39,11 @@ while escolha < 00 or escolha > 99:
 \033[0;30;32m[ 5 ]\033[0;30;33m = banir numero (whatsapp)                 \033[0;30;32m[ 13 ]\033[0;30;33m = gerador de gift xbox
 \033[0;30;32m[ 6 ]\033[0;30;33m = desbanir numero (whatsapp)              \033[0;30;32m[ 14 ]\033[0;30;33m = PyPhisher
 \033[0;30;32m[ 7 ]\033[0;30;33m = email spammer                           \033[0;30;32m[ 15 ]\033[0;30;33m = nmap
-\033[0;30;32m[ 8 ]\033[0;30;33m = gerador de cpf                          
+\033[0;30;32m[ 8 ]\033[0;30;33m = gerador de cpf                          \033[0;30;32m[ 16 ]\033[0;30;33m = Net Atack
 
 \033[0;30;32m[ 99 ]\033[0;30;33m  \033[0;30;31msair\033[0;30;0m \033[0;30;34m ~(CY㉿LUGH!)~ \033[0;30;0m \033[0;30;32m[ 00 ]\033[0;30;33m  \033[0;30;34msuporte\033[0;30;0m
+
+\033[0;30;32m[ 0 ]\033[0;30;33m = Proxima pagina
 
 \033[0;30;34m┌──(CY㉿LUGH!)-[~]
 └─>\033[0;30;0m """))
@@ -49,6 +52,9 @@ while escolha < 00 or escolha > 99:
     print('')
     
 # escolha
+
+if escolha == 0:
+    exec(open('CY-LUGH2.py', encoding="utf-8").read(), globals())
 
 if escolha == 1:
     exec(open('DDOS2.py', encoding="utf-8").read(), globals())
@@ -96,6 +102,9 @@ if escolha == 14:
 if escolha == 15:
     exec(open('nmap.py', encoding="utf-8").read(), globals())
 
+if escolha == 16:
+    exec(open('DerrubaNet.py', encoding="utf-8").read(), globals())
+
 
 if escolha == 00:
     exec(open('suporte.py', encoding="utf-8").read(), globals())
@@ -107,5 +116,4 @@ if escolha == 99:
 else:
     print('')
 
-#opa dev q ta usando o meu script, me da uma nota la pelo insta: @slayerkkk_
-#sou iniciante ainda, me fale oq posso melhorar! :)
+#copia nn skiddie!
