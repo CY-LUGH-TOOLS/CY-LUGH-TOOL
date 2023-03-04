@@ -43,7 +43,7 @@ while escolha < 00 or escolha > 99:
 if escolha == 1:
     exec(open('genexe.py', encoding="utf-8").read(), globals())
 
-if escolha == 1:
-    exec(open('CY-LUGH.py.py', encoding="utf-8").read(), globals())
+if escolha == 2:
+    exec(open('CY-LUGH.py', encoding="utf-8").read(), globals())
 
 
