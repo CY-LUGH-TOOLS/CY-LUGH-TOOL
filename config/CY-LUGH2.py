@@ -29,8 +29,8 @@ while escolha < 00 or escolha > 99:
     escolha = int(input("""
 
 
-\033[0;30;32m[ 1 ]\033[0;30;33m = dnsenum
-\033[0;30;32m[ 2 ]\033[0;30;33m = Site IP
+\033[0;30;32m[ 17 ]\033[0;30;33m = dnsenum
+\033[0;30;32m[ 18 ]\033[0;30;33m = Site IP
 
 \033[0;30;32m[ 99 ]\033[0;30;33m  \033[0;30;31msair\033[0;30;0m \033[0;30;34m ~(CY㉿LUGH!)~ \033[0;30;0m \033[0;30;32m[ 00 ]\033[0;30;33m  \033[0;30;34msuporte\033[0;30;0m
 
@@ -47,8 +47,8 @@ while escolha < 00 or escolha > 99:
 if escolha == 0:
     exec(open('CY-LUGH.py', encoding="utf-8").read(), globals())
 
-if escolha == 1:
+if escolha == 17:
     exec(open('dnsenum.py', encoding="utf-8").read(), globals())
 
-if escolha == 2:
+if escolha == 18:
     exec(open('SiteIP.py', encoding="utf-8").read(), globals())

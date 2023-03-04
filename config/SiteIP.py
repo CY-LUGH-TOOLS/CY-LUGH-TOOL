@@ -25,3 +25,4 @@ b = os.system(f'host {a}')
 print(b)
 
 input('Aperte enter para sair...')
+exit()
