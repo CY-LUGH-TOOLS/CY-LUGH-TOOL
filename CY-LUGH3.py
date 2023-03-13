@@ -1,3 +1,5 @@
 import os
-os.walk('REPO-MENU')
-exec(open('CY-LUGH.py', encoding="utf-8").read(), globals())
+main_path = '''./CY-LUGH-TOOL'''
+for root, subFolder, filename in os.walk(main_path):
+ for folder in subFolder:
+  os.system('cd REPO-MENU')
